@@ -173,7 +173,7 @@ def Plot_tangents():
                 plt.plot(t, v)
 
     locs, labels = plt.yticks()  # locs gives us the y-tick values on the plot.
-    plt.axhline(E, x_lower, x_upper, linewidth = 2, color = 'black', label = 'Equilibrium Solution') # Plot equilibrium solution.
+    plt.axhline(E, x_lower, x_upper, linewidth = 2, color = 'black', label = 'Equilibrium Solution') # Plots equilibrium solution.
     label = True
     for tick in locs:
         if tick < 1.03 * E and tick > .97 * E:
